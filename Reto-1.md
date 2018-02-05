@@ -10,7 +10,7 @@ int example(int n)
   return count;
 }
 ```
-
+es de complejidad de tiemop O(n^2) por la anidacion de los dos for.
 ## 2. ¿Cual es la complejidad de tiempo de la función example2()?
 
 ```c++
@@ -22,7 +22,7 @@ void example2(int n, int arr[])
             j++;
 }
 ```
-
+es de complejidad de tiempo O(n) porque solo depende de un for y una condicion.
 ## 3. ¿Cuál es la mejor complejidad de tiempo de bubbleSort?
 
-
+La mejor complejidad de tiempo de Ordenamiento burbuja es O(n)
